@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+
+</head>
+<body>
+<header>
+    <h1>Hangman</h1>
+</header>
+<div id="unGuessedWord">
+    <span id="dashes"></span><br><br>
+    <button id="newGame">New Game</button>
+</div>
+
+<h2 id="endGame"></h2><br><br>
+
+<div class="alphabet">
+    <div id="firstRow">
+        <img src="A.png" height="auto" width="80px" id="letterA" value="A"/>
+        <img src="B.png" height="auto" width="80px" id="letterB" value="B"/>
+        <img src="C.png" height="auto" width="80px" id="letterC" value="C"/>
+        <img src="D.png" height="auto" width="80px" id="letterD" value="D"/>
+        <img src="E.png" height="auto" width="80px" id="letterE" value="E"/>
+        <img src="F.png" height="auto" width="80px" id="letterF" value="F"/>
+        <img src="G.png" height="auto" width="80px" id="letterG" value="G"/>
+        <img src="H.png" height="auto" width="80px" id="letterH" value="H"/>
+        <img src="I.png" height="auto" width="80px" id="letterI" value="I"/>
+        <img src="J.png" height="auto" width="80px" id="letterJ" value="J"/>
+        <img src="K.png" height="auto" width="80px" id="letterK" value="K"/>
+        <img src="L.png" height="auto" width="80px" id="letterL" value="L"/>
+        <img src="M.png" height="auto" width="80px" id="letterM" value="M"/>
+    </div>
+    <div id="secondRow">
+        <img src="N.png" height="auto" width="80px" id="letterN" value="N"/>
+        <img src="O.png" height="auto" width="80px" id="letterO" value="O"/>
+        <img src="P.png" height="auto" width="80px" id="letterP" value="P"/>
+        <img src="Q.png" height="auto" width="80px" id="letterQ" value="Q"/>
+        <img src="R.png" height="auto" width="80px" id="letterR" value="R"/>
+        <img src="S.png" height="auto" width="80px" id="letterS" value="S"/>
+        <img src="T.png" height="auto" width="80px" id="letterT" value="T"/>
+        <img src="U.png" height="auto" width="80px" id="letterU" value="U"/>
+        <img src="V.png" height="auto" width="80px" id="letterV" value="V"/>
+        <img src="W.png" height="auto" width="80px" id="letterW" value="W"/>
+        <img src="X.png" height="auto" width="80px" id="letterX" value="X"/>
+        <img src="Y.png" height="auto" width="80px" id="letterY" value="Y"/>
+        <img src="Z.png" height="auto" width="80px" id="letterZ" value="Z"/>
+    </div>
+</div>
+<h3 id="chosenLetters"></h3>
+
+</body>
+</html>

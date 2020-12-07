@@ -1,0 +1,10 @@
+#newGame { margin-left: 50px; border-radius: 5px;}
+
+#unGuessedWord {margin-left: 100px; margin-top: 23px; width: 600px; height: 300px; border: hidden;
+    float: left; }
+
+#firstRow { margin-left: 25px; margin-bottom: 0; }
+
+#secondRow { margin-left: 65px; margin-top: 0; }
+
+#dashes { font-size: 600%; margin-left: 50px; }
